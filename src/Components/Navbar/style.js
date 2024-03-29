@@ -5,6 +5,9 @@ display: flex;
 justify-content: space-between;
 align-items:center;
 padding:0 210px;
+position:absolute;
+top:0;
+width:100%;
 `
 export const LogoCon =styled.div`
 /* width:256px;
@@ -28,7 +31,13 @@ align-items:center;
 p{
     padding-left: 80px;
     font-size:25px;
+    color:white;
+    cursor: pointer;
 }
 
+:hover p{
+    text-decoration:underline;
+}
 
 `
+
