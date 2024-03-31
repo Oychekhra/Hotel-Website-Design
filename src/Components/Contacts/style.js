@@ -17,9 +17,10 @@ h1{
 `
 
 export const Wrapper =styled.div`
-display:grid;
-grid-template-areas:"a a";
-gap: 200px;
+display:flex;
+justify-content: space-between;
+align-items:start;
+width:100%;
 margin-top:100px;
 `
 

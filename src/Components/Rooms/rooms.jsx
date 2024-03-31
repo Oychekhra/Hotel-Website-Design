@@ -9,13 +9,14 @@ import TwinRoom from '../../Assets/twin_room.png'
 import Round from '../../Assets/round.png'
 import MORE from '../../Assets/more_icon.png'
 import TestimonialsComponent from '../About/testimonials'
+import { MainContainer } from '../About/style'
 
 const RoomsComponent = () => {
   return (
     <div>
-        <div style={{backgroundImage: `url(${HomeImage})`}}>
+        <MainContainer style={{backgroundImage: `url(${HomeImage})`}}>
           <AboutComponent />
-        </div>
+        </MainContainer>
         <SecondTitle>
           <h3>ROOMS AND RATES</h3>
           <p>Each of our bright, light-flooded rooms come with everything you could possibly need for a comfortable stay. And yes, 

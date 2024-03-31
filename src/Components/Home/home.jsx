@@ -3,7 +3,7 @@ import HomeImage from '../../Assets/home.png'
 import AboutComponent from '../About/about'
 import TestimonialsComponent from '../About/testimonials'
 import { Advantages, FirstTitle, HomeWrapper, Info } from './style'
-import { Button } from '../About/style'
+import { Button, MainContainer } from '../About/style'
 import VerLine from '../../Assets/verline.png'
 import VerLine2 from '../../Assets/verline2.png'
 import HotelRoom from '../../Assets/home_room.png'
@@ -13,9 +13,9 @@ import SeaView from '../../Assets/home_sea.png'
 const HomeComponent = () => {
   return (
     <HomeWrapper>
-       <div style={{backgroundImage: `url(${HomeImage})`}}>
+       <MainContainer style={{backgroundImage: `url(${HomeImage})`}}>
         <AboutComponent />
-       </div>
+       </MainContainer>
        <FirstTitle>All our room types including complementary breakfast</FirstTitle>
        <Advantages>
         <img src={VerLine} alt='Vertical Line'/>

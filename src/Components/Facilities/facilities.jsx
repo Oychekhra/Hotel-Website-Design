@@ -10,13 +10,14 @@ import Restaurant from '../../Assets/restaurant.png'
 import Laundry from '../../Assets/laundry.png'
 import TestimonialsComponent from '../About/testimonials'
 import { ImageWrapper } from '../Rooms/style'
+import { MainContainer } from '../About/style'
 
 const FacilitiesComponent = () => {
   return (
     <div>
-        <div style={{backgroundImage: `url(${HomeImage})`}}>
+        <MainContainer style={{backgroundImage: `url(${HomeImage})`}}>
           <AboutComponent/>
-        </div>
+        </MainContainer>
         <SecondTitle>
           <h3>FACILITIES</h3>
           <p>We want your stay at our lush hotel to be truly unforgettable.  That is why we give special attention to all of your needs so 
